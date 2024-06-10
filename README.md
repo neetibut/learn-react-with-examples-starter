@@ -1,6 +1,8 @@
 # Vite + React + Tailwind + JavaScript Boilerplate
 
-Welcome to the Vite + React + Tailwind + JavaScript Boilerplate! This project provides a robust starting point for building modern web applications with a focus on speed, flexibility, and ease of development.
+Welcome to the Vite + React + Tailwind + JavaScript Boilerplate!
+
+- This project provides a robust starting point for building modern web applications with a focus on speed, flexibility, and ease of development.
 
 ## Features
 
