@@ -3,7 +3,19 @@
 @tailwind utilities;
 
 @layer base {
-  div {
-    @apply min-h-screen bg-[#242424] flex flex-col justify-center items-center text-center text-white text-6xl;
+  .page-container {
+    @apply min-h-screen bg-[#242424] flex flex-col justify-start items-center text-center text-white text-6xl;
+  }
+  button {
+    @apply mx-1 my-2 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded-full;
+  }
+  input {
+    @apply text-black;
+  }
+  .Toolbar {
+    @apply bg-purple-500;
+  }
+  .link-homepage {
+    @apply hover:bg-emerald-500 min-w-full;
   }
 }

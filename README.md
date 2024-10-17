@@ -1,3 +1,9 @@
+# Adding event handlers
+
+## Example 1:
+
+## Example 2:
+
 # Vite + React + Tailwind + JavaScript Boilerplate
 
 Welcome to the Vite + React + Tailwind + JavaScript Boilerplate!
