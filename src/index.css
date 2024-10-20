@@ -16,6 +16,6 @@
     @apply bg-purple-500;
   }
   .link-homepage {
-    @apply hover:bg-emerald-500 min-w-full;
+    @apply py-2 hover:bg-emerald-500 min-w-full;
   }
 }
