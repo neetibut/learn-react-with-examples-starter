@@ -1,9 +1,31 @@
-const today = new Date();
+import { useState } from "react";
 
-function formatDate(date: Date) {
-  return new Intl.DateTimeFormat("en-US", { weekday: "long" }).format(date);
-}
+let initialArtists = [
+  { id: 0, name: "Marta Colvin Andrade" },
+  { id: 1, name: "Lamidi Olonade Fakeye" },
+  { id: 2, name: "Louise Nevelson" },
+];
 
-export default function TodoList() {
-  return <h1>To Do List for {formatDate(today)}</h1>;
+export default function List() {
+  const [artists, setArtists] = useState(initialArtists);
+
+  return (
+    <>
+      <h1>Inspiring sculptors:</h1>
+      <ul>
+        {artists.map((artist) => (
+          <li key={artist.id}>
+            {artist.name}{" "}
+            <button
+              onClick={() => {
+                setArtists(artists.filter((a) => a.id !== artist.id));
+              }}
+            >
+              Delete
+            </button>
+          </li>
+        ))}
+      </ul>
+    </>
+  );
 }

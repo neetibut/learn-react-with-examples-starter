@@ -8,7 +8,7 @@ export default function Example5() {
         Back to <span className="font-bold">Section Page</span>
       </Link>
       <section className="py-6 text-xl">
-        <h2>Example 5: More fun with JavaScript objects and curly braces</h2>
+        <h2>Example 5: Write concise update logic with Immer</h2>
       </section>
       <App />
     </div>

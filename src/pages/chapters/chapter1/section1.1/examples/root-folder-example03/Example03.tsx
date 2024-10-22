@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import App from "./App";
 
 export default function Example03() {
   return (
@@ -9,22 +10,7 @@ export default function Example03() {
       <section className="py-6 text-xl">
         <h2>Example 03: Using a component</h2>
       </section>
-      <Gallery />
+      <App />
     </div>
-  );
-}
-
-function Profile() {
-  return <img src="https://i.imgur.com/GFcRn8s.png" alt="Amazing JSD8" />;
-}
-
-function Gallery() {
-  return (
-    <section>
-      <h1 className="text-4xl">The Amazing JSD8!</h1>
-      <Profile />
-      <Profile />
-      <Profile />
-    </section>
   );
 }

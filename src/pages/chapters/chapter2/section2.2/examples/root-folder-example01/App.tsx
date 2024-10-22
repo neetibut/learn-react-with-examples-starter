@@ -1,9 +1,25 @@
-export default function Avatar() {
+import { sculptureList } from "./data";
+
+export default function Gallery() {
+  let index = 0;
+
+  function handleClick() {
+    index = index + 1;
+  }
+
+  let sculpture = sculptureList[index];
   return (
-    <img
-      className="avatar"
-      src="https://i.imgur.com/7vQD0fPs.jpg"
-      alt="Gregorio Y. Zara"
-    />
+    <>
+      <button onClick={handleClick}>next</button>
+      <h2>
+        <i>{sculpture.name}</i>
+        by {sculpture.artist}
+      </h2>
+      <h3>
+        ({index + 1} of {sculptureList.length})
+      </h3>
+      <img src={sculpture.url} alt={sculpture.alt} />
+      <p>{sculpture.description}</p>
+    </>
   );
 }

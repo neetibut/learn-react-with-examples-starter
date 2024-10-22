@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import App from "./App";
 
 export default function Example09() {
   return (
@@ -7,9 +8,9 @@ export default function Example09() {
         Back to <span className="font-bold">Section Page</span>
       </Link>
       <section className="py-6 text-xl">
-        <h2>Example 09: </h2>
-        <h2>?</h2>
+        <h2>Example 09: Write concise update logic with Immer</h2>
       </section>
+      <App />
     </div>
   );
 }

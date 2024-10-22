@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import App from "./App";
 
 export default function Example06() {
   return (
@@ -7,9 +8,9 @@ export default function Example06() {
         Back to <span className="font-bold">Section Page</span>
       </Link>
       <section className="py-6 text-xl">
-        <h2>Example 06: Challenge</h2>
-        <h2>?</h2>
+        <h2>Example 06: Inserting into an array</h2>
       </section>
+      <App />
     </div>
   );
 }

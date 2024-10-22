@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import App from "./App";
 
 export default function Example02() {
   return (
@@ -14,11 +15,7 @@ export default function Example02() {
           <li>Step 3: Add markup</li>
         </ul>
       </section>
-      <Profile />
+      <App />
     </div>
   );
-}
-
-function Profile() {
-  return <img src="https://i.imgur.com/GFcRn8s.png" alt="Amazing JSD8" />;
 }

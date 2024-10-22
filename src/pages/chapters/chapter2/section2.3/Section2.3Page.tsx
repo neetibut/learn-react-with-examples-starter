@@ -26,12 +26,21 @@ export default function Chapter2Page({
           Section {sectionNum}: {sectionTitle}
         </h2>
       </section>
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
+        Example 01: Step 1: Trigger a render
+      </h2>
       <button>
         <Link to="/section2.3/example01">Example 01</Link>
       </button>
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
+        Example 02: Step 2: React renders your components
+      </h2>
       <button>
         <Link to="/section2.3/example02">Example 02</Link>
       </button>
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
+        Example 03: Step 3: React commits changes to the DOM
+      </h2>
       <button>
         <Link to="/section2.3/example03">Example 03</Link>
       </button>

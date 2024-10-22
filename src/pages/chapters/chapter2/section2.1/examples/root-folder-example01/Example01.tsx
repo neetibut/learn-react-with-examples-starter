@@ -16,7 +16,7 @@ export default function Example01() {
       </Link>
       <section className="py-6 text-xl">
         <h2>Example 01: </h2>
-        <h2>Responding to Events</h2>
+        <h2>Adding event handlers</h2>
       </section>
       <Button />
       <button

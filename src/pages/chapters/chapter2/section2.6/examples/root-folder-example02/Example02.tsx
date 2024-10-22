@@ -3,7 +3,7 @@ import App from "./App";
 
 export default function Example02() {
   return (
-    <div className="page-container">
+    <div className="page-container bg-white text-black">
       <Link className="link-homepage" to="/section2.6">
         Back to <span className="font-bold">Section Page</span>
       </Link>

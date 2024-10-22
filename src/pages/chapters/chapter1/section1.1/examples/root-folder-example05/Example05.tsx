@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import App from "./App";
 
 export default function Example5() {
   return (
@@ -28,22 +29,7 @@ export default function Example5() {
           </li>
         </ol>
       </section>
-      <Gallery />
+      <App />
     </div>
-  );
-}
-
-function Profile() {
-  return <img src="https://i.imgur.com/GFcRn8s.png" alt="Amazing JSD8" />;
-}
-
-function Gallery() {
-  return (
-    <section>
-      <h1 className="text-4xl">The Amazing JSD8!</h1>
-      <Profile />
-      <Profile />
-      <Profile />
-    </section>
   );
 }

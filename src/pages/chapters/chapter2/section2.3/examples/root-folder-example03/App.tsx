@@ -1,9 +1,18 @@
-const today = new Date();
+import { useState, useEffect } from "react";
+import Clock from "./Clock";
 
-function formatDate(date: Date) {
-  return new Intl.DateTimeFormat("en-US", { weekday: "long" }).format(date);
+function useTime() {
+  const [time, setTime] = useState(() => new Date());
+  useEffect(() => {
+    const id = setInterval(() => {
+      setTime(new Date());
+    }, 1000);
+    return () => clearInterval(id);
+  }, []);
+  return time;
 }
 
-export default function TodoList() {
-  return <h1>To Do List for {formatDate(today)}</h1>;
+export default function App() {
+  const time = useTime();
+  return <Clock time={time.toLocaleTimeString()} />;
 }

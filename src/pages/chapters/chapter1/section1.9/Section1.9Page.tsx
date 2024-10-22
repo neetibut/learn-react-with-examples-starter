@@ -22,35 +22,35 @@ export default function SectionPage({
         <h2 className="">
           Chapter {chapterNum}: {chapterTitle}
         </h2>
-        <h2 className="">
+        <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
           Section {sectionNum}: {sectionTitle}
         </h2>
       </section>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
         Example 01: Your UI as a tree
       </h2>
       <button>
         <Link to="/section1.9/example01">Example 01</Link>
       </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
         Example 02: The Render Tree
       </h2>
       <button>
         <Link to="/section1.9/example02">Example 02</Link>
       </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
         Example 03: The Module Dependency Tree
       </h2>
       <button>
         <Link to="/section1.9/example03">Example 03</Link>
       </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
         Example 04: ?
       </h2>
       <button>
         <Link to="/section1.9/example04">Example 04</Link>
       </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
         Example 05: ?
       </h2>
       <button>

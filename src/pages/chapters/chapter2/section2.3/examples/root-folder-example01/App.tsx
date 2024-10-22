@@ -1,9 +1,10 @@
-export default function Avatar() {
+import Image from "./Image";
+
+// Define your App component
+export default function App() {
   return (
-    <img
-      className="avatar"
-      src="https://i.imgur.com/7vQD0fPs.jpg"
-      alt="Gregorio Y. Zara"
-    />
+    <div>
+      <Image />
+    </div>
   );
 }

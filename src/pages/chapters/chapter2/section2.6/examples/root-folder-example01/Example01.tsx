@@ -8,7 +8,7 @@ export default function Example01() {
         Back to <span className="font-bold">Section Page</span>
       </Link>
       <section className="py-6 text-xl">
-        <h2>Example 01: The root component file</h2>
+        <h2>Example 01: What's a mutation?</h2>
       </section>
       {/* render your React code here below: */}
       <App />

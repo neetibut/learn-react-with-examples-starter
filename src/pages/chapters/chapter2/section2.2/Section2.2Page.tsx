@@ -26,21 +26,39 @@ export default function Chapter2Page({
           Section {sectionNum}: {sectionTitle}
         </h2>
       </section>
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
+        Example 01: When a regular variable isn't enough
+      </h2>
       <button>
         <Link to="/section2.2/example01">Example 01</Link>
       </button>
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
+        Example 02: Adding a state variable
+      </h2>
       <button>
         <Link to="/section2.2/example02">Example 02</Link>
       </button>
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
+        Example 03: Meet your first Hook
+      </h2>
       <button>
         <Link to="/section2.2/example03">Example 03</Link>
       </button>
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
+        Example 04: Anatomy of useState
+      </h2>
       <button>
         <Link to="/section2.2/example04">Example 04</Link>
       </button>
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
+        Example 05: Giving a component multiple state variables
+      </h2>
       <button>
         <Link to="/section2.2/example05">Example 05</Link>
       </button>
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
+        Example 06: State is isolated and private
+      </h2>
       <button>
         <Link to="/section2.2/example06">Example 06</Link>
       </button>

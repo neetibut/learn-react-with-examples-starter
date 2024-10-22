@@ -1,4 +1,36 @@
-export default function TodoList() {
-  const name = "Gregorio Y. Zara";
-  return <h1>{name}'s To Do List</h1>;
+import { useState } from "react";
+
+export default function MovingDot() {
+  const [position, setPosition] = useState({
+    x: 0,
+    y: 0,
+  });
+  return (
+    <div
+      onPointerMove={(e) => {
+        setPosition({
+          x: e.clientX,
+          y: e.clientY,
+        });
+      }}
+      style={{
+        position: "relative",
+        width: "100vw",
+        height: "100vh",
+      }}
+    >
+      <div
+        style={{
+          position: "absolute",
+          backgroundColor: "red",
+          borderRadius: "50%",
+          transform: `translate(${position.x}px, ${position.y}px)`,
+          left: -5,
+          top: -165,
+          width: 20,
+          height: 20,
+        }}
+      />
+    </div>
+  );
 }

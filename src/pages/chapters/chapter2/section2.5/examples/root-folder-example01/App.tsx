@@ -1,9 +1,20 @@
-export default function Avatar() {
+import { useState } from "react";
+
+export default function Counter() {
+  const [number, setNumber] = useState(0);
+
   return (
-    <img
-      className="avatar"
-      src="https://i.imgur.com/7vQD0fPs.jpg"
-      alt="Gregorio Y. Zara"
-    />
+    <>
+      <h1>{number}</h1>
+      <button
+        onClick={() => {
+          setNumber(number + 1);
+          setNumber(number + 1);
+          setNumber(number + 1);
+        }}
+      >
+        +3
+      </button>
+    </>
   );
 }

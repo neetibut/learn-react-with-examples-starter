@@ -26,15 +26,27 @@ export default function Chapter2Page({
           Section {sectionNum}: {sectionTitle}
         </h2>
       </section>
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
+        Example 01: React batches state updates
+      </h2>
       <button>
         <Link to="/section2.5/example01">Example 01</Link>
       </button>
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
+        Example 02: Updating the same state multiple times before the next order
+      </h2>
       <button>
         <Link to="/section2.5/example02">Example 02</Link>
       </button>
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
+        Example 03: What happens if you update state after replacing it
+      </h2>
       <button>
         <Link to="/section2.5/example03">Example 03</Link>
       </button>
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
+        Example 04: Naming conventions
+      </h2>
       <button>
         <Link to="/section2.5/example04">Example 04</Link>
       </button>

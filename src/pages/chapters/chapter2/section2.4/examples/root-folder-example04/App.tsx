@@ -1,15 +1,31 @@
-export default function TodoList() {
+import { useState, FormEvent } from "react";
+
+export default function Form() {
+  const [to, setTo] = useState<string>("Alice");
+  const [message, setMessage] = useState<string>("Hello");
+
+  function handleSubmit(e: FormEvent<HTMLFormElement>): void {
+    e.preventDefault();
+    setTimeout(() => {
+      alert(`You said ${message} to ${to}`);
+    }, 5000);
+  }
+
   return (
-    <ul
-      style={{
-        backgroundColor: "black",
-        color: "pink",
-      }}
-      className="list-disc list-inside text-start w-2/3 text-xl border-black rounded-xl p-4"
-    >
-      <li>Improve the videophone</li>
-      <li>Prepare aeronautics lectures</li>
-      <li>Work on the alcohol-fuelled engine</li>
-    </ul>
+    <form onSubmit={handleSubmit}>
+      <label>
+        To:{" "}
+        <select value={to} onChange={(e) => setTo(e.target.value)}>
+          <option value="Alice">Alice</option>
+          <option value="Bob">Bob</option>
+        </select>
+      </label>
+      <textarea
+        placeholder="Message"
+        value={message}
+        onChange={(e) => setMessage(e.target.value)}
+      />
+      <button type="submit">Send</button>
+    </form>
   );
 }

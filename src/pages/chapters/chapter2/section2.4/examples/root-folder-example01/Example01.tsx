@@ -3,12 +3,12 @@ import App from "./App.js";
 
 export default function Example01() {
   return (
-    <div className="page-container">
+    <div className="page-container bg-white text-black text-start p-6">
       <Link className="link-homepage" to="/section2.4">
         Back to <span className="font-bold">Section Page</span>
       </Link>
       <section className="py-6 text-xl">
-        <h2>Example 01: The root component file</h2>
+        <h2>Example 01: Setting state triggers renders</h2>
       </section>
       {/* render your React code here below: */}
       <App />

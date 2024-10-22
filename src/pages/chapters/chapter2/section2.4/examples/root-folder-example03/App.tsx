@@ -1,9 +1,19 @@
-const today = new Date();
+import { useState } from "react";
 
-function formatDate(date: Date) {
-  return new Intl.DateTimeFormat("en-US", { weekday: "long" }).format(date);
-}
+export default function Counter() {
+  const [number, setNumber] = useState(0);
 
-export default function TodoList() {
-  return <h1>To Do List for {formatDate(today)}</h1>;
+  return (
+    <>
+      <h1>{number}</h1>
+      <button
+        onClick={() => {
+          setNumber(number + 5);
+          alert(number);
+        }}
+      >
+        +5
+      </button>
+    </>
+  );
 }

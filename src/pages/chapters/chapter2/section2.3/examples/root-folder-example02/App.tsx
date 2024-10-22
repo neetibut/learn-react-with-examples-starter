@@ -1,4 +1,10 @@
-export default function TodoList() {
-  const name = "Gregorio Y. Zara";
-  return <h1>{name}'s To Do List</h1>;
+import Gallery from "./Gallery";
+
+// Define your App component
+export default function App() {
+  return (
+    <div>
+      <Gallery />
+    </div>
+  );
 }

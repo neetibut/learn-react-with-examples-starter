@@ -26,15 +26,27 @@ export default function Chapter2Page({
           Section {sectionNum}: {sectionTitle}
         </h2>
       </section>
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
+        Example 01: Setting state triggers renders
+      </h2>
       <button>
         <Link to="/section2.4/example01">Example 01</Link>
       </button>
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
+        Example 02: Rendering takes a snapshot in time
+      </h2>
       <button>
         <Link to="/section2.4/example02">Example 02</Link>
       </button>
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
+        Example 03: State over time
+      </h2>
       <button>
         <Link to="/section2.4/example03">Example 03</Link>
       </button>
+      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
+        Example 04: Sends a message with a five-second delay
+      </h2>
       <button>
         <Link to="/section2.4/example04">Example 04</Link>
       </button>

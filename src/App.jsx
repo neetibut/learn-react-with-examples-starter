@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
+// CHAPTER 1
 import Chapter1Page from "./pages/chapters/chapter1/Chapter1Page";
 // SECTION 1.1
 import Section1Part1 from "./pages/chapters/chapter1/section1.1/Section1.1Page.tsx";
@@ -195,6 +196,94 @@ import Chapter2Section2Part7Example07 from "./pages/chapters/chapter2/section2.7
 import Chapter2Section2Part7Example08 from "./pages/chapters/chapter2/section2.7/examples/root-folder-example08/Example08.tsx";
 import Chapter2Section2Part7Example09 from "./pages/chapters/chapter2/section2.7/examples/root-folder-example09/Example09.tsx";
 import Chapter2Section2Part7Example10 from "./pages/chapters/chapter2/section2.7/examples/root-folder-example10/Example10.tsx";
+// CHAPTER 3
+import Chapter3Page from "./pages/chapters/chapter3/Chapter3Page";
+// SECTION 3.1
+import Section3Part1 from "./pages/chapters/chapter3/section3.1/Section3.1Page.tsx";
+import Chapter3Section3Part1Example01 from "./pages/chapters/chapter3/section3.1/examples/root-folder-example01/Example01.tsx";
+import Chapter3Section3Part1Example02 from "./pages/chapters/chapter3/section3.1/examples/root-folder-example02/Example02.tsx";
+import Chapter3Section3Part1Example03 from "./pages/chapters/chapter3/section3.1/examples/root-folder-example03/Example03.tsx";
+import Chapter3Section3Part1Example04 from "./pages/chapters/chapter3/section3.1/examples/root-folder-example04/Example04.tsx";
+import Chapter3Section3Part1Example05 from "./pages/chapters/chapter3/section3.1/examples/root-folder-example05/Example05.tsx";
+import Chapter3Section3Part1Example06 from "./pages/chapters/chapter3/section3.1/examples/root-folder-example06/Example06.tsx";
+import Chapter3Section3Part1Example07 from "./pages/chapters/chapter3/section3.1/examples/root-folder-example07/Example07.tsx";
+import Chapter3Section3Part1Example08 from "./pages/chapters/chapter3/section3.1/examples/root-folder-example08/Example08.tsx";
+import Chapter3Section3Part1Example09 from "./pages/chapters/chapter3/section3.1/examples/root-folder-example09/Example09.tsx";
+import Chapter3Section3Part1Example10 from "./pages/chapters/chapter3/section3.1/examples/root-folder-example10/Example10.tsx";
+// SECTION 3.2
+import Section3Part2 from "./pages/chapters/chapter3/section3.2/Section3.2Page.tsx";
+import Chapter3Section3Part2Example01 from "./pages/chapters/chapter3/section3.2/examples/root-folder-example01/Example01.tsx";
+import Chapter3Section3Part2Example02 from "./pages/chapters/chapter3/section3.2/examples/root-folder-example02/Example02.tsx";
+import Chapter3Section3Part2Example03 from "./pages/chapters/chapter3/section3.2/examples/root-folder-example03/Example03.tsx";
+import Chapter3Section3Part2Example04 from "./pages/chapters/chapter3/section3.2/examples/root-folder-example04/Example04.tsx";
+import Chapter3Section3Part2Example05 from "./pages/chapters/chapter3/section3.2/examples/root-folder-example05/Example05.tsx";
+import Chapter3Section3Part2Example06 from "./pages/chapters/chapter3/section3.2/examples/root-folder-example06/Example06.tsx";
+import Chapter3Section3Part2Example07 from "./pages/chapters/chapter3/section3.2/examples/root-folder-example07/Example07.tsx";
+import Chapter3Section3Part2Example08 from "./pages/chapters/chapter3/section3.2/examples/root-folder-example08/Example08.tsx";
+import Chapter3Section3Part2Example09 from "./pages/chapters/chapter3/section3.2/examples/root-folder-example09/Example09.tsx";
+import Chapter3Section3Part2Example10 from "./pages/chapters/chapter3/section3.2/examples/root-folder-example10/Example10.tsx";
+// SECTION 3.3
+import Section3Part3 from "./pages/chapters/chapter3/section3.3/Section3.3Page.tsx";
+import Chapter3Section3Part3Example01 from "./pages/chapters/chapter3/section3.3/examples/root-folder-example01/Example01.tsx";
+import Chapter3Section3Part3Example02 from "./pages/chapters/chapter3/section3.3/examples/root-folder-example02/Example02.tsx";
+import Chapter3Section3Part3Example03 from "./pages/chapters/chapter3/section3.3/examples/root-folder-example03/Example03.tsx";
+import Chapter3Section3Part3Example04 from "./pages/chapters/chapter3/section3.3/examples/root-folder-example04/Example04.tsx";
+import Chapter3Section3Part3Example05 from "./pages/chapters/chapter3/section3.3/examples/root-folder-example05/Example05.tsx";
+import Chapter3Section3Part3Example06 from "./pages/chapters/chapter3/section3.3/examples/root-folder-example06/Example06.tsx";
+import Chapter3Section3Part3Example07 from "./pages/chapters/chapter3/section3.3/examples/root-folder-example07/Example07.tsx";
+import Chapter3Section3Part3Example08 from "./pages/chapters/chapter3/section3.3/examples/root-folder-example08/Example08.tsx";
+import Chapter3Section3Part3Example09 from "./pages/chapters/chapter3/section3.3/examples/root-folder-example09/Example09.tsx";
+import Chapter3Section3Part3Example10 from "./pages/chapters/chapter3/section3.3/examples/root-folder-example10/Example10.tsx";
+// SECTION 3.4
+import Section3Part4 from "./pages/chapters/chapter3/section3.4/Section3.4Page.tsx";
+import Chapter3Section3Part4Example01 from "./pages/chapters/chapter3/section3.4/examples/root-folder-example01/Example01.tsx";
+import Chapter3Section3Part4Example02 from "./pages/chapters/chapter3/section3.4/examples/root-folder-example02/Example02.tsx";
+import Chapter3Section3Part4Example03 from "./pages/chapters/chapter3/section3.4/examples/root-folder-example03/Example03.tsx";
+import Chapter3Section3Part4Example04 from "./pages/chapters/chapter3/section3.4/examples/root-folder-example04/Example04.tsx";
+import Chapter3Section3Part4Example05 from "./pages/chapters/chapter3/section3.4/examples/root-folder-example05/Example05.tsx";
+import Chapter3Section3Part4Example06 from "./pages/chapters/chapter3/section3.4/examples/root-folder-example06/Example06.tsx";
+import Chapter3Section3Part4Example07 from "./pages/chapters/chapter3/section3.4/examples/root-folder-example07/Example07.tsx";
+import Chapter3Section3Part4Example08 from "./pages/chapters/chapter3/section3.4/examples/root-folder-example08/Example08.tsx";
+import Chapter3Section3Part4Example09 from "./pages/chapters/chapter3/section3.4/examples/root-folder-example09/Example09.tsx";
+import Chapter3Section3Part4Example10 from "./pages/chapters/chapter3/section3.4/examples/root-folder-example10/Example10.tsx";
+// SECTION 3.5
+import Section3Part5 from "./pages/chapters/chapter3/section3.5/Section3.5Page.tsx";
+import Chapter3Section3Part5Example01 from "./pages/chapters/chapter3/section3.5/examples/root-folder-example01/Example01.tsx";
+import Chapter3Section3Part5Example02 from "./pages/chapters/chapter3/section3.5/examples/root-folder-example02/Example02.tsx";
+import Chapter3Section3Part5Example03 from "./pages/chapters/chapter3/section3.5/examples/root-folder-example03/Example03.tsx";
+import Chapter3Section3Part5Example04 from "./pages/chapters/chapter3/section3.5/examples/root-folder-example04/Example04.tsx";
+import Chapter3Section3Part5Example05 from "./pages/chapters/chapter3/section3.5/examples/root-folder-example05/Example05.tsx";
+import Chapter3Section3Part5Example06 from "./pages/chapters/chapter3/section3.5/examples/root-folder-example06/Example06.tsx";
+import Chapter3Section3Part5Example07 from "./pages/chapters/chapter3/section3.5/examples/root-folder-example07/Example07.tsx";
+import Chapter3Section3Part5Example08 from "./pages/chapters/chapter3/section3.5/examples/root-folder-example08/Example08.tsx";
+import Chapter3Section3Part5Example09 from "./pages/chapters/chapter3/section3.5/examples/root-folder-example09/Example09.tsx";
+import Chapter3Section3Part5Example10 from "./pages/chapters/chapter3/section3.5/examples/root-folder-example10/Example10.tsx";
+// SECTION 3.6
+import Section3Part6 from "./pages/chapters/chapter3/section3.6/Section3.6Page.tsx";
+import Chapter3Section3Part6Example01 from "./pages/chapters/chapter3/section3.6/examples/root-folder-example01/Example01.tsx";
+import Chapter3Section3Part6Example02 from "./pages/chapters/chapter3/section3.6/examples/root-folder-example02/Example02.tsx";
+import Chapter3Section3Part6Example03 from "./pages/chapters/chapter3/section3.6/examples/root-folder-example03/Example03.tsx";
+import Chapter3Section3Part6Example04 from "./pages/chapters/chapter3/section3.6/examples/root-folder-example04/Example04.tsx";
+import Chapter3Section3Part6Example05 from "./pages/chapters/chapter3/section3.6/examples/root-folder-example05/Example05.tsx";
+import Chapter3Section3Part6Example06 from "./pages/chapters/chapter3/section3.6/examples/root-folder-example06/Example06.tsx";
+import Chapter3Section3Part6Example07 from "./pages/chapters/chapter3/section3.6/examples/root-folder-example07/Example07.tsx";
+import Chapter3Section3Part6Example08 from "./pages/chapters/chapter3/section3.6/examples/root-folder-example08/Example08.tsx";
+import Chapter3Section3Part6Example09 from "./pages/chapters/chapter3/section3.6/examples/root-folder-example09/Example09.tsx";
+import Chapter3Section3Part6Example10 from "./pages/chapters/chapter3/section3.6/examples/root-folder-example10/Example10.tsx";
+// SECTION 3.7
+import Section3Part7 from "./pages/chapters/chapter3/section3.7/Section3.7Page.tsx";
+import Chapter3Section3Part7Example01 from "./pages/chapters/chapter3/section3.7/examples/root-folder-example01/Example01.tsx";
+import Chapter3Section3Part7Example02 from "./pages/chapters/chapter3/section3.7/examples/root-folder-example02/Example02.tsx";
+import Chapter3Section3Part7Example03 from "./pages/chapters/chapter3/section3.7/examples/root-folder-example03/Example03.tsx";
+import Chapter3Section3Part7Example04 from "./pages/chapters/chapter3/section3.7/examples/root-folder-example04/Example04.tsx";
+import Chapter3Section3Part7Example05 from "./pages/chapters/chapter3/section3.7/examples/root-folder-example05/Example05.tsx";
+import Chapter3Section3Part7Example06 from "./pages/chapters/chapter3/section3.7/examples/root-folder-example06/Example06.tsx";
+import Chapter3Section3Part7Example07 from "./pages/chapters/chapter3/section3.7/examples/root-folder-example07/Example07.tsx";
+import Chapter3Section3Part7Example08 from "./pages/chapters/chapter3/section3.7/examples/root-folder-example08/Example08.tsx";
+import Chapter3Section3Part7Example09 from "./pages/chapters/chapter3/section3.7/examples/root-folder-example09/Example09.tsx";
+import Chapter3Section3Part7Example10 from "./pages/chapters/chapter3/section3.7/examples/root-folder-example10/Example10.tsx";
+// CHAPTER 4
+import Chapter4Page from "./pages/chapters/chapter4/Chapter4Page";
 
 // We setup React-Router-Dom for our web app's navigation here.
 export default function App() {
@@ -710,6 +799,7 @@ export default function App() {
           element={<Chapter1Section1Part9Example10 />}
         />
         {/* End of section */}
+        {/* Chapter 2 */}
         <Route
           path="/chapter2"
           element={
@@ -783,7 +873,7 @@ export default function App() {
               chapterNum="2"
               chapterTitle="Adding Interactivity"
               sectionNum="2.2"
-              sectionTitle="Responding to Events"
+              sectionTitle="State: A Component's Memory"
             />
           }
         />
@@ -837,7 +927,7 @@ export default function App() {
               chapterNum="2"
               chapterTitle="Adding Interactivity"
               sectionNum="2.3"
-              sectionTitle="Responding to Events"
+              sectionTitle="Render and Commit"
             />
           }
         />
@@ -891,7 +981,7 @@ export default function App() {
               chapterNum="2"
               chapterTitle="Adding Interactivity"
               sectionNum="2.4"
-              sectionTitle="Responding to Events"
+              sectionTitle="State as a Snapshot"
             />
           }
         />
@@ -945,7 +1035,7 @@ export default function App() {
               chapterNum="2"
               chapterTitle="Adding Interactivity"
               sectionNum="2.5"
-              sectionTitle="Responding to Events"
+              sectionTitle="Queueing a Series of State Updates"
             />
           }
         />
@@ -991,7 +1081,7 @@ export default function App() {
           element={<Chapter2Section2Part5Example10 />}
         />
         {/* End of section */}
-        {/* Chapter 2 Section 2.7 page */}
+        {/* Chapter 2 Section 2.6 page */}
         <Route
           path="/section2.6"
           element={
@@ -999,7 +1089,7 @@ export default function App() {
               chapterNum="2"
               chapterTitle="Adding Interactivity"
               sectionNum="2.6"
-              sectionTitle="Responding to Events"
+              sectionTitle="Updating Objects in State"
             />
           }
         />
@@ -1053,7 +1143,7 @@ export default function App() {
               chapterNum="2"
               chapterTitle="Adding Interactivity"
               sectionNum="2.7"
-              sectionTitle="Responding to Events"
+              sectionTitle="Updating Arrays in State"
             />
           }
         />
@@ -1099,6 +1189,408 @@ export default function App() {
           element={<Chapter2Section2Part7Example10 />}
         />
         {/* End of section */}
+        {/* Chapter 3 */}
+        <Route
+          path="/chapter3"
+          element={
+            <Chapter3Page
+              chapterNum="3"
+              chapterTitle="Managing State"
+              sectionNum="3.1"
+              sectionTitle="Responding to Events"
+            />
+          }
+        />
+        {/* Chapter 3 Section 3.1 page */}
+        <Route
+          path="/section3.1"
+          element={
+            <Section3Part1
+              chapterNum="3"
+              chapterTitle="Managing State"
+              sectionNum="3.1"
+              sectionTitle="Responding to Events"
+            />
+          }
+        />
+        {/* Chapter 3 Section 3.1 examples */}
+        <Route
+          path="/section3.1/example01"
+          element={<Chapter3Section3Part1Example01 />}
+        />
+        <Route
+          path="/section3.1/example02"
+          element={<Chapter3Section3Part1Example02 />}
+        />
+        <Route
+          path="/section3.1/example03"
+          element={<Chapter3Section3Part1Example03 />}
+        />
+        <Route
+          path="/section3.1/example04"
+          element={<Chapter3Section3Part1Example04 />}
+        />
+        <Route
+          path="/section3.1/example05"
+          element={<Chapter3Section3Part1Example05 />}
+        />
+        <Route
+          path="/section3.1/example06"
+          element={<Chapter3Section3Part1Example06 />}
+        />
+        <Route
+          path="/section3.1/example07"
+          element={<Chapter3Section3Part1Example07 />}
+        />
+        <Route
+          path="/section3.1/example08"
+          element={<Chapter3Section3Part1Example08 />}
+        />
+        <Route
+          path="/section3.1/example09"
+          element={<Chapter3Section3Part1Example09 />}
+        />
+        <Route
+          path="/section3.1/example10"
+          element={<Chapter3Section3Part1Example10 />}
+        />
+        {/* End of section */}
+        {/* Chapter 3 Section 3.2 page */}
+        <Route
+          path="/section3.2"
+          element={
+            <Section3Part2
+              chapterNum="3"
+              chapterTitle="Managing State"
+              sectionNum="3.2"
+              sectionTitle="Responding to Events"
+            />
+          }
+        />
+        {/* Chapter 3 Section 3.2 examples */}
+        <Route
+          path="/section3.2/example01"
+          element={<Chapter3Section3Part2Example01 />}
+        />
+        <Route
+          path="/section3.2/example02"
+          element={<Chapter3Section3Part2Example02 />}
+        />
+        <Route
+          path="/section3.2/example03"
+          element={<Chapter3Section3Part2Example03 />}
+        />
+        <Route
+          path="/section3.2/example04"
+          element={<Chapter3Section3Part2Example04 />}
+        />
+        <Route
+          path="/section3.2/example05"
+          element={<Chapter3Section3Part2Example05 />}
+        />
+        <Route
+          path="/section3.2/example06"
+          element={<Chapter3Section3Part2Example06 />}
+        />
+        <Route
+          path="/section3.2/example07"
+          element={<Chapter3Section3Part2Example07 />}
+        />
+        <Route
+          path="/section3.2/example08"
+          element={<Chapter3Section3Part2Example08 />}
+        />
+        <Route
+          path="/section3.2/example09"
+          element={<Chapter3Section3Part2Example09 />}
+        />
+        <Route
+          path="/section3.2/example10"
+          element={<Chapter3Section3Part2Example10 />}
+        />
+        {/* End of section */}
+        {/* Chapter 3 Section 3.3 page */}
+        <Route
+          path="/section3.3"
+          element={
+            <Section3Part3
+              chapterNum="3"
+              chapterTitle="Managing State"
+              sectionNum="3.3"
+              sectionTitle="Sharing State Between Components"
+            />
+          }
+        />
+        {/* Chapter 3 Section 3.3 examples */}
+        <Route
+          path="/section3.3/example01"
+          element={<Chapter3Section3Part3Example01 />}
+        />
+        <Route
+          path="/section3.3/example02"
+          element={<Chapter3Section3Part3Example02 />}
+        />
+        <Route
+          path="/section3.3/example03"
+          element={<Chapter3Section3Part3Example03 />}
+        />
+        <Route
+          path="/section3.3/example04"
+          element={<Chapter3Section3Part3Example04 />}
+        />
+        <Route
+          path="/section3.3/example05"
+          element={<Chapter3Section3Part3Example05 />}
+        />
+        <Route
+          path="/section3.3/example06"
+          element={<Chapter3Section3Part3Example06 />}
+        />
+        <Route
+          path="/section3.3/example07"
+          element={<Chapter3Section3Part3Example07 />}
+        />
+        <Route
+          path="/section3.3/example08"
+          element={<Chapter3Section3Part3Example08 />}
+        />
+        <Route
+          path="/section3.3/example09"
+          element={<Chapter3Section3Part3Example09 />}
+        />
+        <Route
+          path="/section3.3/example10"
+          element={<Chapter3Section3Part3Example10 />}
+        />
+        {/* End of section */}
+        {/* Chapter 3 Section 3.4 page */}
+        <Route
+          path="/section3.4"
+          element={
+            <Section3Part4
+              chapterNum="3"
+              chapterTitle="Managing State"
+              sectionNum="3.4"
+              sectionTitle="Preserving and Resetting State"
+            />
+          }
+        />
+        {/* Chapter 3 Section 3.4 examples */}
+        <Route
+          path="/section3.4/example01"
+          element={<Chapter3Section3Part4Example01 />}
+        />
+        <Route
+          path="/section3.4/example02"
+          element={<Chapter3Section3Part4Example02 />}
+        />
+        <Route
+          path="/section3.4/example03"
+          element={<Chapter3Section3Part4Example03 />}
+        />
+        <Route
+          path="/section3.4/example04"
+          element={<Chapter3Section3Part4Example04 />}
+        />
+        <Route
+          path="/section3.4/example05"
+          element={<Chapter3Section3Part4Example05 />}
+        />
+        <Route
+          path="/section3.4/example06"
+          element={<Chapter3Section3Part4Example06 />}
+        />
+        <Route
+          path="/section3.4/example07"
+          element={<Chapter3Section3Part4Example07 />}
+        />
+        <Route
+          path="/section3.4/example08"
+          element={<Chapter3Section3Part4Example08 />}
+        />
+        <Route
+          path="/section3.4/example09"
+          element={<Chapter3Section3Part4Example09 />}
+        />
+        <Route
+          path="/section3.4/example10"
+          element={<Chapter3Section3Part4Example10 />}
+        />
+        {/* End of section */}
+        {/* Chapter 3 Section 3.5 page */}
+        <Route
+          path="/section3.5"
+          element={
+            <Section3Part5
+              chapterNum="3"
+              chapterTitle="Managing State"
+              sectionNum="3.5"
+              sectionTitle="Extracting State Logic into a Reducer"
+            />
+          }
+        />
+        {/* Chapter 3 Section 3.5 examples */}
+        <Route
+          path="/section3.5/example01"
+          element={<Chapter3Section3Part5Example01 />}
+        />
+        <Route
+          path="/section3.5/example02"
+          element={<Chapter3Section3Part5Example02 />}
+        />
+        <Route
+          path="/section3.5/example03"
+          element={<Chapter3Section3Part5Example03 />}
+        />
+        <Route
+          path="/section3.5/example04"
+          element={<Chapter3Section3Part5Example04 />}
+        />
+        <Route
+          path="/section3.5/example05"
+          element={<Chapter3Section3Part5Example05 />}
+        />
+        <Route
+          path="/section3.5/example06"
+          element={<Chapter3Section3Part5Example06 />}
+        />
+        <Route
+          path="/section3.5/example07"
+          element={<Chapter3Section3Part5Example07 />}
+        />
+        <Route
+          path="/section3.5/example08"
+          element={<Chapter3Section3Part5Example08 />}
+        />
+        <Route
+          path="/section3.5/example09"
+          element={<Chapter3Section3Part5Example09 />}
+        />
+        <Route
+          path="/section3.5/example10"
+          element={<Chapter3Section3Part5Example10 />}
+        />
+        {/* End of section */}
+        {/* Chapter 3 Section 3.6 page */}
+        <Route
+          path="/section3.6"
+          element={
+            <Section3Part6
+              chapterNum="3"
+              chapterTitle="Managing State"
+              sectionNum="3.6"
+              sectionTitle="Passing Data Deeply with Context"
+            />
+          }
+        />
+        {/* Chapter 3 Section 3.6 examples */}
+        <Route
+          path="/section3.6/example01"
+          element={<Chapter3Section3Part6Example01 />}
+        />
+        <Route
+          path="/section3.6/example02"
+          element={<Chapter3Section3Part6Example02 />}
+        />
+        <Route
+          path="/section3.6/example03"
+          element={<Chapter3Section3Part6Example03 />}
+        />
+        <Route
+          path="/section3.6/example04"
+          element={<Chapter3Section3Part6Example04 />}
+        />
+        <Route
+          path="/section3.6/example05"
+          element={<Chapter3Section3Part6Example05 />}
+        />
+        <Route
+          path="/section3.6/example06"
+          element={<Chapter3Section3Part6Example06 />}
+        />
+        <Route
+          path="/section3.6/example07"
+          element={<Chapter3Section3Part6Example07 />}
+        />
+        <Route
+          path="/section3.6/example08"
+          element={<Chapter3Section3Part6Example08 />}
+        />
+        <Route
+          path="/section3.6/example09"
+          element={<Chapter3Section3Part6Example09 />}
+        />
+        <Route
+          path="/section3.6/example10"
+          element={<Chapter3Section3Part6Example10 />}
+        />
+        {/* End of section */}
+        {/* Chapter 3 Section 3.7 page */}
+        <Route
+          path="/section3.7"
+          element={
+            <Section3Part7
+              chapterNum="3"
+              chapterTitle="Managing State"
+              sectionNum="3.7"
+              sectionTitle="Scaling Up with Reducer and Context"
+            />
+          }
+        />
+        {/* Chapter 3 Section 3.7 examples */}
+        <Route
+          path="/section3.7/example01"
+          element={<Chapter3Section3Part7Example01 />}
+        />
+        <Route
+          path="/section3.7/example02"
+          element={<Chapter3Section3Part7Example02 />}
+        />
+        <Route
+          path="/section3.7/example03"
+          element={<Chapter3Section3Part7Example03 />}
+        />
+        <Route
+          path="/section3.7/example04"
+          element={<Chapter3Section3Part7Example04 />}
+        />
+        <Route
+          path="/section3.7/example05"
+          element={<Chapter3Section3Part7Example05 />}
+        />
+        <Route
+          path="/section3.7/example06"
+          element={<Chapter3Section3Part7Example06 />}
+        />
+        <Route
+          path="/section3.7/example07"
+          element={<Chapter3Section3Part7Example07 />}
+        />
+        <Route
+          path="/section3.7/example08"
+          element={<Chapter3Section3Part7Example08 />}
+        />
+        <Route
+          path="/section3.7/example09"
+          element={<Chapter3Section3Part7Example09 />}
+        />
+        <Route
+          path="/section3.7/example10"
+          element={<Chapter3Section3Part7Example10 />}
+        />
+        {/* End of section */}
+        {/* Chapter 4 */}
+        <Route
+          path="/chapter4"
+          element={
+            <Chapter4Page
+              chapterNum="4"
+              chapterTitle="Escape Hatches"
+              sectionNum="4.1"
+              sectionTitle="Referencing Values with Refs"
+            />
+          }
+        />
       </Routes>
     </BrowserRouter>
   );

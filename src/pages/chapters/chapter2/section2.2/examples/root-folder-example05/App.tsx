@@ -1,28 +1,34 @@
-const person = {
-  name: "Gregorio Y. Zara",
-  theme: {
-    backgroundColor: "black",
-    color: "pink",
-  },
-};
+import { useState } from "react";
+import { sculptureList } from "./data";
 
-export default function TodoList() {
+export default function Gallery() {
+  const [index, setIndex] = useState(0);
+  const [showMore, setShowMore] = useState(false);
+
+  function handleNextClick() {
+    setIndex(index + 1);
+  }
+
+  function handleMoreClick() {
+    setShowMore(!showMore);
+  }
+
+  let sculpture = sculptureList[index];
   return (
-    <div
-      style={person.theme}
-      className="w-2/3 text-xl border-black rounded-xl p-4"
-    >
-      <h1>{person.name}'s Todos</h1>
-      <img
-        className="avatar rounded-[100%]"
-        src="https://i.imgur.com/7vQD0fPs.jpg"
-        alt="Gregorio Y. Zara"
-      />
-      <ul className="list-disc list-inside text-start">
-        <li>Improve the videophone</li>
-        <li>Prepare aeronautics lectures</li>
-        <li>Work on the alcohol-fuelled engine</li>
-      </ul>
-    </div>
+    <>
+      <button onClick={handleNextClick}>Next</button>
+      <h2>
+        <i>{sculpture.name} </i>
+        by {sculpture.artist}
+      </h2>
+      <h3>
+        ({index + 1} of {sculptureList.length})
+      </h3>
+      <button onClick={handleMoreClick}>
+        {showMore ? "Hide" : "Show"} details
+      </button>
+      {showMore && <p>{sculpture.description}</p>}
+      <img src={sculpture.url} alt={sculpture.alt} />
+    </>
   );
 }

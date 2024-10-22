@@ -1,28 +1,66 @@
-const person = {
-  name: "Gregorio Y. Zara",
-  theme: {
-    backgroundColor: "black",
-    color: "pink",
-  },
-};
+import { ChangeEvent } from "react";
+import { useImmer } from "use-immer";
 
-export default function TodoList() {
+export default function Form() {
+  const [person, updatePerson] = useImmer({
+    name: "Niki de Saint Phalle",
+    artwork: {
+      title: "Blue Nana",
+      city: "Hamburg",
+      image: "https://i.imgur.com/Sd1AgUOm.jpg",
+    },
+  });
+
+  function handleNameChange(e: ChangeEvent<HTMLInputElement>) {
+    updatePerson((draft) => {
+      draft.name = e.target.value;
+    });
+  }
+
+  function handleTitleChange(e: ChangeEvent<HTMLInputElement>) {
+    updatePerson((draft) => {
+      draft.artwork.title = e.target.value;
+    });
+  }
+
+  function handleCityChange(e: ChangeEvent<HTMLInputElement>) {
+    updatePerson((draft) => {
+      draft.artwork.city = e.target.value;
+    });
+  }
+
+  function handleImageChange(e: ChangeEvent<HTMLInputElement>) {
+    updatePerson((draft) => {
+      draft.artwork.image = e.target.value;
+    });
+  }
+
   return (
-    <div
-      style={person.theme}
-      className="w-2/3 text-xl border-black rounded-xl p-4"
-    >
-      <h1>{person.name}'s Todos</h1>
-      <img
-        className="avatar rounded-[100%]"
-        src="https://i.imgur.com/7vQD0fPs.jpg"
-        alt="Gregorio Y. Zara"
-      />
-      <ul className="list-disc list-inside text-start">
-        <li>Improve the videophone</li>
-        <li>Prepare aeronautics lectures</li>
-        <li>Work on the alcohol-fuelled engine</li>
-      </ul>
-    </div>
+    <>
+      <label>
+        Name:
+        <input value={person.name} onChange={handleNameChange} />
+      </label>
+      <label>
+        Title:
+        <input value={person.artwork.title} onChange={handleTitleChange} />
+      </label>
+      <label>
+        City:
+        <input value={person.artwork.city} onChange={handleCityChange} />
+      </label>
+      <label>
+        Image:
+        <input value={person.artwork.image} onChange={handleImageChange} />
+      </label>
+      <p>
+        <i>{person.artwork.title}</i>
+        {" by "}
+        {person.name}
+        <br />
+        (located in {person.artwork.city})
+      </p>
+      <img src={person.artwork.image} alt={person.artwork.title} />
+    </>
   );
 }

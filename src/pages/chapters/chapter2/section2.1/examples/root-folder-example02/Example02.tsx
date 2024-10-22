@@ -27,7 +27,7 @@ export default function Example02() {
       </Link>
       <section className="py-6 text-xl">
         <h2>Example 02: </h2>
-        <h2>Adding event handlers</h2>
+        <h2>Reading props in event handlers</h2>
       </section>
       {/* code below */}
       <Toolbar />
