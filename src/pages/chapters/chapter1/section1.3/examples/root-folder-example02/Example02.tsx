@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import App from "./App";
 
 export default function Example02() {
   return (
@@ -9,11 +10,7 @@ export default function Example02() {
       <section className="py-6 text-xl">
         <h2>Example 02: Exporting and importing a component</h2>
       </section>
-      <Profile />
+      <App />
     </div>
   );
-}
-
-function Profile() {
-  return <img src="https://i.imgur.com/GFcRn8s.png" alt="Amazing JSD8" />;
 }
