@@ -27,7 +27,7 @@ export default function HomePage({
         <img src="/atom.svg" alt="atom icon" width="120" />
         <div className="text-3xl">
           <h1>
-            Let&apos;s Learn <span className="ml-0">React</span>
+            Learn <span className="ml-0">React</span>
           </h1>
           <h1>with Examples</h1>
         </div>
@@ -58,6 +58,9 @@ export default function HomePage({
       <button>
         <Link to="/chapter4">Chapter 4</Link>
       </button>
+      <footer className="text-xs mt-20 font-extralight">
+        © 2024 Made in 🇹🇭 by JSD8 & NAKKK 🌏
+      </footer>
     </div>
   );
 }
