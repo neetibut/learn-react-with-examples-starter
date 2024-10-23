@@ -1,5 +1,3 @@
-import Gallery from "../root-folder-example05/Gallery";
-
 export default function App() {
-  return <Gallery />;
+  return <h1>Replace with your code here!</h1>;
 }

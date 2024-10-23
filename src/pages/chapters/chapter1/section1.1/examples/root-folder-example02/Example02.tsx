@@ -9,11 +9,6 @@ export default function Example02() {
       </Link>
       <section className="py-6 text-xl">
         <h2>Example 02: </h2>
-        <ul className="list-disc text-start">
-          <li>Step 1: Export the component</li>
-          <li>Step 2: Define the function</li>
-          <li>Step 3: Add markup</li>
-        </ul>
       </section>
       <App />
     </div>

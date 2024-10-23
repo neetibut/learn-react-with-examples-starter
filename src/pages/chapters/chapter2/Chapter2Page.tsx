@@ -23,7 +23,7 @@ export default function Chapter2Page({
           Chapter {chapterNum}: {chapterTitle}
         </h2>
       </section>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
+      {/* <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
         Section 2.1: Responding to Events
       </h2>
       <button>
@@ -64,7 +64,8 @@ export default function Chapter2Page({
       </h2>
       <button>
         <Link to="/section2.7">Section 2.7</Link>
-      </button>
+      </button> */}
+      <h1>Coming soon... 🧙‍♂️</h1>
     </div>
   );
 }

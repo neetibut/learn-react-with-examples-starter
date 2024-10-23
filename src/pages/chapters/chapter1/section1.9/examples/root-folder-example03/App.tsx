@@ -1,6 +1,3 @@
-import Gallery from "./Gallery";
-import { Profile } from "./Gallery";
-
 export default function App() {
-  return <Profile />;
+  return <h1>Replace with your code here!</h1>;
 }

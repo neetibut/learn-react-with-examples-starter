@@ -1,3 +1,3 @@
 export default function App() {
-  return <div>App</div>;
+  return <h1>Replace with your code here!</h1>;
 }
